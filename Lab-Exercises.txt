@@ -1,0 +1,464 @@
+<!-- ## File Containing All the question solved here:
+
+Q1. Write a HTML program for the demonstration of Lists.
+a. Unordered List
+b. Ordered List
+c. Definition List
+d. Nested List
+
+Ans.  -->
+<article id="#lists" bgcolor="pink">
+  <h1 align="center">Creating Unorder List</h1>
+  <h1 align="center">List of Colleges in Kurnool</h1>
+  <ul type="square">
+    <li>GPREC</li>
+    <li>RGMCET</li>
+    <li>GPCET</li>
+  </ul>
+  <hr />
+  <h1 align="center">Creating Order List</h1>
+  <h1 align="center">List of branches in RGMCET</h1>
+  <ol type="A">
+    <li>CSE</li>
+    <li>IT</li>
+    <li>ECE</li>
+    <li>EEE</li>
+    <li>CIVIL</li>
+    <li>ME</li>
+  </ol>
+  <hr />
+  <h1 align="center">Definition List</h1>
+  <dl>
+    <dt>CSE</dt>
+    <dd>Computer Science & Engineering</dd>
+    <dt>ECE</dt>
+    <dd>Electronics & Communication Engineering</dd>
+    <dt>IT</dt>
+    <dd>Information Technology</dd>
+    <dt>EEE</dt>
+    <dd>Electrical & Electronics Engineering</dd>
+    <dt>CE</dt>
+    <dd>Civil Engineering</dd>
+  </dl>
+  <hr />
+  <h1 align="center">List of Colleges in Kurnool</h1>
+  <ol>
+    <li>
+      Kurnool
+      <ul>
+        <li>GPREC</li>
+        <li>BITS</li>
+        <li>GPCET</li>
+      </ul>
+    </li>
+    <li>
+      Nandyala
+      <ul>
+        <li>RGMCET</li>
+        <li>SREC</li>
+      </ul>
+    </li>
+  </ol>
+</article>
+
+<!-- Q2. Write a HTML program for demonstrating Hyperlinks.
+a. Navigation from one page to another.
+b. Navigation within the page.
+
+Ans. -->
+<article
+  id="#hyperlinks"
+  bgcolor="pink"
+  link="green"
+  vlink="blue"
+  alink="red"
+  align="center"
+>
+  <h1>Setting Hyperlink To Outer Page</h1>
+  <a href="https://www.google.com/">Click here</a>to goto Google's homepage
+  <h1>Setting Hyperlink To Inner Page Element</h1>
+  <a href="#lists">Click here</a>to goto Lists section on homepage.
+</article>
+
+<!-- Q3. Write a HTML program for time-table using tables.
+
+Ans. -->
+<article id="#table" align="center">
+  <h1 align="center"><font color="#fff456">Timetable of X</font></h1>
+  <br />
+  <table
+    align="center"
+    border="4"
+    bordercolor="#dd3467"
+    cellspacing="0"
+    cellpadding="15"
+  >
+    <tr align="center" valign="middle">
+      <th>DAY</th>
+      <th>I</th>
+      <th>II</th>
+      <th rowspan="7">
+        <b>>B<br />R<br />E<br />A<br />K</b>
+      </th>
+      <th>III</th>
+      <th>IV</th>
+      <th rowspan="7">
+        <b>B<br />R<br />E<br />A<br />K</b>
+      </th>
+      <th>V</th>
+      <th>VI</th>
+      <th>VII</th>
+    </tr>
+    <tr align="center">
+      <th>MON</th>
+      <td>IS</td>
+      <td>WT</td>
+      <td>SEM</td>
+      <td>OOAD</td>
+      <td>SCI</td>
+      <td>C#</td>
+      <td>COMP</td>
+    </tr>
+    <tr align="center">
+      <th>TUE</th>
+      <td>AP</td>
+      <td>AP Lab</td>
+      <td colspan="2">AP Lab</td>
+      <td>WT</td>
+      <td>IS</td>
+      <td>OOAD</td>
+    </tr>
+    <tr align="center">
+      <th>WED</th>
+      <td>WT</td>
+      <td>IS</td>
+      <td>C#</td>
+      <td>SCI</td>
+      <td colspan="3">MOOC'S</td>
+    </tr>
+    <tr align="center">
+      <th>THU</th>
+      <td>IS</td>
+      <td>LIB</td>
+      <td>OOAD</td>
+      <td>WT</td>
+      <td colspan="3">WT Lab</td>
+    </tr>
+    <tr align="center">
+      <th>FRI</th>
+      <td>AP</td>
+      <td>AP</td>
+      <td>C#</td>
+      <td>OOAD</td>
+      <td colspan="3">C# Lab</td>
+    </tr>
+    <tr align="center">
+      <th>SAT</th>
+      <td>OOAD</td>
+      <td>SCI</td>
+      <td>WT</td>
+      <td>SEM</td>
+      <td>AP</td>
+      <td>AP</td>
+      <td>C#</td>
+    </tr>
+  </table>
+</article>
+
+<!-- Q4. Write a HTML program to develop a static Home Page using frames.
+
+Ans. -->
+<!-- Frames are decrepted by W3C and are not to be used as main strc. -->
+<!-- This code block might not work use at your own risk -->
+<!-- <frameset cols="30%,70%"> 
+    <frameset rows="25%,25%,50%"> 
+        <frame src="e:\cse546\logo.html"> 
+        <frame src="e:\cse546\home1.html"> 
+        <frame src="e:\cse546\courses.html"> 
+    </frameset> 
+    <frameset rows="25%,25%,50%"> 
+        <frame src="e:\cse546\name.html"> 
+        <frame src="e:\cse546\table.html"> 
+        <frame src="e:\cse546\default.html" name="display"> 
+    </frameset> 
+</frameset> -->
+<!-- Or you can try using it like -->
+<!-- <frameset cols = "25%,50%,25%">
+    <frame name = "left" src = "/html/top_frame.htm" />
+    <frame name = "center" src = "/html/main_frame.htm" />
+    <frame name = "right" src = "/html/bottom_frame.htm" />
+    <noframes>
+       <body>Your browser does not support frames.</body>
+    </noframes>
+</frameset> -->
+
+<!-- Q5. Write a HTML program to develop a static Registration Form.
+
+Ans. -->
+<article id="#registration-form" bgcolor="#faaa">
+  <br />
+  <br />
+  <form>
+    <label> Firstname </label>
+    <input type="text" name="firstname" size="15" /> <br />
+    <br />
+    <label> Middlename: </label>
+    <input type="text" name="middlename" size="15" /> <br />
+    <br />
+    <label> Lastname: </label>
+    <input type="text" name="lastname" size="15" /> <br />
+    <br />
+
+    <label> Course : </label>
+    <select>
+      <option value="Course">Course</option>
+      <option value="BCA">BCA</option>
+      <option value="BBA">BBA</option>
+      <option value="B.Tech">B.Tech</option>
+      <option value="MBA">MBA</option>
+      <option value="MCA">MCA</option>
+      <option value="M.Tech">M.Tech</option>
+    </select>
+
+    <label> Date Of Birth : </label><br />
+    <input type="datetime-local" id="Test_DatetimeLocal" />
+    <br /><br />
+
+    <br />
+    <br />
+    <label> Gender : </label><br />
+    <input type="radio" name="male" /> Male <br />
+    <input type="radio" name="female" /> Female <br />
+    <input type="radio" name="other" /> Other
+    <br />
+    <br />
+    <label> Martial Status : </label><br />
+    <input type="radio" name="married" /> Married <br />
+    <input type="radio" name="unamarried" /> Unmarried <br />
+    <input type="radio" name="divorced" /> Divorced
+    <br />
+    <br />
+
+    <label> Phone : </label>
+    <input type="text" name="country code" value="+91" size="2" />
+    <input type="text" name="phone" size="10" /> <br />
+    <br />
+    Address
+    <br />
+    <textarea cols="80" rows="5" value="address"> </textarea>
+    <br />
+    <br />
+    Email:
+    <input type="email" id="email" name="email" /> <br />
+    <br />
+    <br />
+    Password:
+    <input type="Password" id="pass" name="pass" /> <br />
+    <br />
+    <br />
+    Re-type password:
+    <input type="Password" id="repass" name="repass" /> <br />
+    <br />
+    <br />
+    <label> Martial Status : </label><br />
+    <input type="radio" name="hindi" /> Hindi <br />
+    <input type="radio" name="english" /> English <br />
+    <input type="radio" name="other" /> Other
+    <br />
+
+    <input type="submit" value="Submit" name="submit-btn" />
+    <input type="reset" value="Submit" name="reset-btn" />
+  </form>
+</article>
+
+<!-- Q6. Write a HTML program to develop a static Login Page.
+
+Ans. -->
+<article id="#login-page" bgcolor="#faaa">
+  <br /><br /><br /><br />
+  <h1 align="center"><u>LOGIN</u></h1>
+  <br /><br /><br />
+  <h4>
+    username&nbsp&nbsp<input type="text" /><br />
+    password&nbsp&nbsp<input type="password" /><br /><br /><br />
+  </h4>
+  <input type="submit" value="submit" />
+  &nbsp&nbsp
+  <input type="reset" value="cancel" />
+</article>
+
+<!-- Q7. Write a HTML program to develop a static Web Page for Catalog.
+
+Ans. -->
+<article id="catalogue-section">
+  <table border="8" bordercolor="#faa" cellpadding="10" cellspacing="10">
+    <tr>
+      <td>
+        <img
+          src="https://images.unsplash.com/photo-1485990005353-9abcf694f3e7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
+          alt=""
+          height="100"
+          width="100"
+        />
+      </td>
+      <td>
+        Book:XML Bible<br />
+        Author:Wingston<br />
+        Publication:wiely
+      </td>
+      <td>$40.5</td>
+      <td><input type="button" value="add to cart" /></td>
+    </tr>
+    <tr>
+      <td>
+        <img
+          src="https://images.unsplash.com/photo-1485990005353-9abcf694f3e7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
+          alt=""
+          height="100"
+          width="100"
+        />
+      </td>
+      <td>
+        Book:A1<br />
+        Author:S.Rusell<br />
+        Publication:Princeton hall
+      </td>
+      <td>$63</td>
+      <td><input type="button" value="add to cart" /></td>
+    </tr>
+    <tr>
+      <td>
+        <img src="D:\cse546\image2.jpg" alt="" height="100" width="100" />
+      </td>
+      <td>
+        Book:JAVA 2<br />
+        Author:Watson<br />
+        Publication:BPB
+      </td>
+      <td>$35.5</td>
+      <td><input type="button" value="add to cart" /></td>
+    </tr>
+    <tr>
+      <td>
+        <img
+          src="https://images.unsplash.com/photo-1485990005353-9abcf694f3e7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
+          alt=""
+          height="100"
+          width="100"
+        />
+      </td>
+      <td>
+        Book:Html in 24 hrs<br />
+        Author:Sam Peter<br />
+        Publication:SAM
+      </td>
+      <td>$50</td>
+      <td><input type="button" value="add to cart" /></td>
+    </tr>
+  </table>
+</article>
+
+<!-- Q8. Write a HTML program to develop a static Web Page for Shopping Cart.
+
+Ans. -->
+<article id="cart-section" bgcolor="#aadd">
+  <table
+    border="2"
+    bordercolor="#ff5467"
+    width="50"
+    height="10"
+    cellpadding="10"
+    cellspacing="10"
+  >
+    <tr>
+      <th>Book name</th>
+      <th>Price</th>
+      <th>Quantity</th>
+      <th>Amount</th>
+    </tr>
+    <tr>
+      <td>JAVA 2</td>
+      <td>$35.5</td>
+      <td>2</td>
+      <td>$70</td>
+    </tr>
+    <tr>
+      <td>XML Bible</td>
+      <td>$40.5</td>
+      <td>1</td>
+      <td>$40.5</td>
+    </tr>
+  </table>
+  <h3>total amount-130.5</h3>
+</article>
+
+<!-- Q9. Write HTML for demonstration of cascading stylesheets.
+a. Embedded stylesheets.
+b. External stylesheets.
+c. Inline styles.
+
+Ans. -->
+
+<!-- Q10. Write a javascript program to validate USER LOGIN page.
+
+Ans. -->
+
+<!-- Q11. Write a javascript program for validating REGISTRATION FORM
+
+Ans. -->
+
+<!-- Q12. Write a program for implementing XML document for CUSTOMER DETAILS.
+
+Ans. -->
+
+<!-- Q13. Write an internal Document Type Definition to validate XML for CUSTOMER DETAILS?
+
+Ans. -->
+
+<!-- Q14. Write an external Document Type Definition to validate XML for CUSTOMER DETAILS?
+
+Ans. -->
+
+<!-- Q15. Write an XML for person information and access the data using XSL.
+
+Ans. -->
+
+<!-- Q16. Write an XML for student information and access second students data using DOM.
+
+Ans. -->
+
+<!-- Q17. Write a program to display contents of XML file in a table using Extensible Style Sheets.
+
+Ans. -->
+
+<!-- Q18. Write a simple servlet that displays a message.
+
+Ans. -->
+
+<!-- Q19. Write a servlet that reads parameters from employee login page.
+
+Ans. -->
+
+<!-- Q20. Write a servlet for creating a cookie and retrieving it.
+
+Ans. -->
+
+<!-- Q21. Write a servlet for session tracking.
+
+Ans. -->
+
+<!-- Q22. Write a JSP that reads parameters from user login page.
+
+Ans. -->
+
+<!-- Q23. Write a JSP that reads a value, creates a cookie and retrieves it.
+
+Ans. -->
+
+<!-- Q24. Write a JSP for session tracking.
+
+Ans. -->
+
+<!-- Q25. Write a servlet that connects to the database and retrieves the data and displays it.
+
+Ans.  -->
