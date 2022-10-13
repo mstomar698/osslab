@@ -1,7 +1,11 @@
 # This file consists of Basic HTML codes.
 
-- Check `demo.html` for demo
-- Check `Lab-Exercise.html` for all files
-- Check `Lab-exercises.txt` for text answers.
+- Check out all Lab-exercises at `lab-exercises.html`
 
-- By Mayank Singh Tomar
+- Projects are provided as
+
+* `project` consists of E-Commerce website
+* `project-1` consists of E-Mart website
+* `project-2` consists of Banking website
+
+- By **Mayank Singh Tomar** && **Mukul Kumar**
